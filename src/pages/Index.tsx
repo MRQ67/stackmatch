@@ -96,7 +96,11 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex-shrink-0">
-              <span className="text-2xl font-bold gradient-text">Stackmatch</span>
+              <img 
+                src="/lovable-uploads/92ab1551-203d-40d4-9d28-079a2c059b2b.png" 
+                alt="Stackmatch Logo" 
+                className="h-8 w-auto"
+              />
             </div>
             
             <div className="hidden md:block">
@@ -468,7 +472,11 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <span className="text-2xl font-bold gradient-text">Stackmatch</span>
+              <img 
+                src="/lovable-uploads/92ab1551-203d-40d4-9d28-079a2c059b2b.png" 
+                alt="Stackmatch Logo" 
+                className="h-8 w-auto mb-4"
+              />
               <p className="text-muted-foreground mt-4">
                 The complete development environment synchronization platform. Stop losing days to 'works on my machine' problems.
               </p>
