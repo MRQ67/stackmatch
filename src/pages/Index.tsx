@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import emailjs from '@emailjs/browser';
 import { Button } from "@/components/ui/button";
@@ -210,43 +209,43 @@ const Index = () => {
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
-            <Card className="bg-card border-border hover:border-purple-500 transition-colors animate-slide-in-left">
+            <Card className="glass-effect border-white/20 hover:border-purple-400/50 transition-all duration-300 animate-slide-in-left backdrop-blur-xl">
               <CardContent className="p-8">
                 <div className="text-4xl mb-4">😤</div>
-                <h3 className="text-xl font-semibold mb-4 text-red-400">New Developer Onboarding Hell</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-xl font-semibold mb-4 text-red-300">New Developer Onboarding Hell</h3>
+                <p className="text-white/90 leading-relaxed">
                   Your new hire just joined and they're spending their entire first week installing Node, Python, Docker, configuring VS Code, setting up Git, and debugging why their environment doesn't match yours. Meanwhile, they're getting paid to... configure software.
                 </p>
               </CardContent>
             </Card>
 
-            <Card className="bg-card border-border hover:border-purple-500 transition-colors animate-scale-in" style={{animationDelay: '0.1s'}}>
+            <Card className="glass-effect border-white/20 hover:border-purple-400/50 transition-all duration-300 animate-scale-in backdrop-blur-xl" style={{animationDelay: '0.1s'}}>
               <CardContent className="p-8">
                 <div className="text-4xl mb-4">🔥</div>
-                <h3 className="text-xl font-semibold mb-4 text-orange-400">The Mysterious 'Works on My Machine' Bug</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-xl font-semibold mb-4 text-orange-300">The Mysterious 'Works on My Machine' Bug</h3>
+                <p className="text-white/90 leading-relaxed">
                   Your code works perfectly on your laptop, but breaks in staging. After 3 hours of debugging, you discover it's because Sarah has Node 16 while you have Node 18. This has happened 12 times this month.
                 </p>
               </CardContent>
             </Card>
 
-            <Card className="bg-card border-border hover:border-purple-500 transition-colors animate-slide-in-right" style={{animationDelay: '0.2s'}}>
+            <Card className="glass-effect border-white/20 hover:border-purple-400/50 transition-all duration-300 animate-slide-in-right backdrop-blur-xl" style={{animationDelay: '0.2s'}}>
               <CardContent className="p-8">
                 <div className="text-4xl mb-4">⏰</div>
-                <h3 className="text-xl font-semibold mb-4 text-yellow-400">Context Switching Nightmare</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-xl font-semibold mb-4 text-yellow-300">Context Switching Nightmare</h3>
+                <p className="text-white/90 leading-relaxed">
                   You're juggling 3 client projects. Each needs different Python versions, different environment variables, different IDE settings. You spend 30 minutes reconfiguring your setup every time you switch projects.
                 </p>
               </CardContent>
             </Card>
           </div>
 
-          <Card className="bg-gradient-to-r from-card/80 to-card/60 border-border animate-fade-in" style={{animationDelay: '0.3s'}}>
+          <Card className="glass-effect border-white/20 backdrop-blur-xl animate-fade-in" style={{animationDelay: '0.3s'}}>
             <CardContent className="p-8">
               <h3 className="text-2xl font-bold mb-4 text-center gradient-text">
                 Why Docker and Dotfiles Aren't Enough
               </h3>
-              <p className="text-muted-foreground text-center text-lg">
+              <p className="text-white/90 text-center text-lg leading-relaxed">
                 You've tried Docker (too heavy for development), dotfiles (only covers configs, not dependencies), and Vagrant (slow and outdated). These solutions solve pieces of the puzzle, but none capture your COMPLETE development environment—the tools, versions, settings, and configurations that make you productive.
               </p>
             </CardContent>
@@ -264,31 +263,31 @@ const Index = () => {
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <Card className="bg-card border-border hover:border-green-500 transition-colors animate-slide-in-left">
+            <Card className="glass-effect border-white/20 hover:border-green-400/50 transition-all duration-300 animate-slide-in-left backdrop-blur-xl">
               <CardContent className="p-8">
                 <Zap className="text-green-400 w-12 h-12 mb-4" />
-                <h3 className="text-xl font-semibold mb-4 text-green-400">New Team Members Productive in 30 Minutes</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-xl font-semibold mb-4 text-green-300">New Team Members Productive in 30 Minutes</h3>
+                <p className="text-white/90 leading-relaxed">
                   Sarah joins your team on Monday. She clicks one button, and by lunch, she has your exact development environment—every tool, every version, every configuration. She commits her first code that afternoon.
                 </p>
               </CardContent>
             </Card>
 
-            <Card className="bg-card border-border hover:border-blue-500 transition-colors animate-scale-in" style={{animationDelay: '0.1s'}}>
+            <Card className="glass-effect border-white/20 hover:border-blue-400/50 transition-all duration-300 animate-scale-in backdrop-blur-xl" style={{animationDelay: '0.1s'}}>
               <CardContent className="p-8">
                 <Check className="text-blue-400 w-12 h-12 mb-4" />
-                <h3 className="text-xl font-semibold mb-4 text-blue-400">True Environment Consistency Across Your Team</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-xl font-semibold mb-4 text-blue-300">True Environment Consistency Across Your Team</h3>
+                <p className="text-white/90 leading-relaxed">
                   Everyone on your team has identical development environments. 'Works on my machine' becomes a phrase of the past. Bugs are actually bugs, not environment differences.
                 </p>
               </CardContent>
             </Card>
 
-            <Card className="bg-card border-border hover:border-purple-500 transition-colors animate-slide-in-right" style={{animationDelay: '0.2s'}}>
+            <Card className="glass-effect border-white/20 hover:border-purple-400/50 transition-all duration-300 animate-slide-in-right backdrop-blur-xl" style={{animationDelay: '0.2s'}}>
               <CardContent className="p-8">
                 <RefreshCw className="text-purple-400 w-12 h-12 mb-4" />
-                <h3 className="text-xl font-semibold mb-4 text-purple-400">Effortless Project Switching</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-xl font-semibold mb-4 text-purple-300">Effortless Project Switching</h3>
+                <p className="text-white/90 leading-relaxed">
                   Jump between client projects instantly. Stackmatch automatically loads the right Node version, environment variables, IDE settings, and dependencies. Your context switches take 30 seconds, not 30 minutes.
                 </p>
               </CardContent>
@@ -296,10 +295,10 @@ const Index = () => {
           </div>
 
           <div className="mt-16 text-center animate-fade-in" style={{animationDelay: '0.3s'}}>
-            <Card className="bg-gradient-to-r from-blue-900/30 to-purple-900/30 border-blue-500/50">
+            <Card className="glass-effect border-blue-400/30 backdrop-blur-xl">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold mb-4 gradient-text">New Paradigm</h3>
-                <p className="text-foreground text-lg">
+                <p className="text-white/90 text-lg leading-relaxed">
                   Traditional solutions try to containerize or script your environment. Stackmatch takes a different approach—it creates a living snapshot of your complete development ecosystem and keeps it perfectly synchronized across your entire team.
                 </p>
               </CardContent>
@@ -343,13 +342,13 @@ const Index = () => {
             </div>
           </div>
 
-          <Card className="bg-gradient-to-r from-card/80 to-card/60 border-border mb-16 animate-fade-in" style={{animationDelay: '0.3s'}}>
+          <Card className="glass-effect border-white/20 backdrop-blur-xl mb-16 animate-fade-in" style={{animationDelay: '0.3s'}}>
             <CardContent className="p-8">
-              <h3 className="text-2xl font-bold mb-4 text-center">Founder Message</h3>
-              <blockquote className="text-lg text-muted-foreground italic text-center">
+              <h3 className="text-2xl font-bold mb-4 text-center text-white">Founder Message</h3>
+              <blockquote className="text-lg text-white/90 italic text-center leading-relaxed">
                 "As a developer who's lost countless hours to environment setup, I built Stackmatch to solve the problem that every development team faces but no one talks about. We're not just syncing dotfiles—we're synchronizing your entire development identity."
               </blockquote>
-              <p className="text-center mt-4 text-purple-400 font-semibold">— Alex Chen, Founder</p>
+              <p className="text-center mt-4 text-purple-300 font-semibold">— Alex Chen, Founder</p>
             </CardContent>
           </Card>
 
@@ -375,19 +374,19 @@ const Index = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-            <Card className="bg-card border-border animate-slide-in-left">
+            <Card className="glass-effect border-white/20 backdrop-blur-xl animate-slide-in-left">
               <CardContent className="p-6">
                 <Clock className="text-blue-400 w-8 h-8 mb-4 mx-auto" />
-                <h3 className="text-lg font-semibold mb-2">Launch Timeline</h3>
-                <p className="text-muted-foreground">Stackmatch launches Summer 2025 - Join the waitlist to get exclusive early access</p>
+                <h3 className="text-lg font-semibold mb-2 text-white">Launch Timeline</h3>
+                <p className="text-white/90 leading-relaxed">Stackmatch launches Summer 2025 - Join the waitlist to get exclusive early access</p>
               </CardContent>
             </Card>
 
-            <Card className="bg-card border-border animate-slide-in-right">
+            <Card className="glass-effect border-white/20 backdrop-blur-xl animate-slide-in-right">
               <CardContent className="p-6">
                 <Users className="text-green-400 w-8 h-8 mb-4 mx-auto" />
-                <h3 className="text-lg font-semibold mb-2">Limited Spots</h3>
-                <p className="text-muted-foreground">⏰ Limited spots available for our founding user program</p>
+                <h3 className="text-lg font-semibold mb-2 text-white">Limited Spots</h3>
+                <p className="text-white/90 leading-relaxed">⏰ Limited spots available for our founding user program</p>
               </CardContent>
             </Card>
           </div>
@@ -421,7 +420,7 @@ const Index = () => {
             </p>
           </div>
 
-          <Card className="bg-gradient-to-r from-card/80 to-card/60 border-purple-500/50 animate-scale-in">
+          <Card className="glass-effect border-purple-400/30 backdrop-blur-xl animate-scale-in">
             <CardContent className="p-8">
               <form onSubmit={handleWaitlistSignup} className="space-y-4">
                 <div className="flex flex-col sm:flex-row gap-4">
@@ -449,8 +448,8 @@ const Index = () => {
               </form>
 
               <div className="mt-8 text-center">
-                <h3 className="text-lg font-semibold mb-4">Get exclusive updates, beta access, and founding user benefits</h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 text-sm text-muted-foreground">
+                <h3 className="text-lg font-semibold mb-4 text-white">Get exclusive updates, beta access, and founding user benefits</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 text-sm text-white/90">
                   <div>• First access when Stackmatch launches</div>
                   <div>• Exclusive development updates</div>
                   <div>• Founding user program eligibility</div>
