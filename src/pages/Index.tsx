@@ -96,7 +96,7 @@ const Index = () => {
           <div className="flex justify-between items-center h-16">
             <div className="flex-shrink-0">
               <img 
-                src="/stackmatch.png" 
+                src="/lovable-uploads/stackmatch_logo.png" 
                 alt="Stackmatch Logo" 
                 className="h-17 w-auto"
               />
@@ -472,7 +472,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <img 
-                src="/stackmatch.png" 
+                src="/lovable-uploads/stackmatch_logo.png" 
                 alt="Stackmatch Logo" 
                 className="h-12 w-auto mb-4"
               />
