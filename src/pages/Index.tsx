@@ -98,7 +98,7 @@ const Index = () => {
               <img 
                 src="/lovable-uploads/stackmatch_logo.png" 
                 alt="Stackmatch Logo" 
-                className="h-17 w-auto"
+                className="h-17 w-25"
               />
             </div>
             
