@@ -96,9 +96,9 @@ const Index = () => {
           <div className="flex justify-between items-center h-16">
             <div className="flex-shrink-0">
               <img 
-                src="/lovable-uploads/92ab1551-203d-40d4-9d28-079a2c059b2b.png" 
+                src="/lovable-uploads/stackmatch.png" 
                 alt="Stackmatch Logo" 
-                className="h-12 w-auto"
+                className="h-17 w-auto"
               />
             </div>
             
@@ -350,9 +350,9 @@ const Index = () => {
             <CardContent className="p-8">
               <h3 className="text-2xl font-bold mb-4 text-center">Founder Message</h3>
               <blockquote className="text-lg text-muted-foreground italic text-center">
-                "As a developer who's lost countless hours to environment setup, I built Stackmatch to solve the problem that every development team faces but no one talks about. We're not just syncing dotfiles—we're synchronizing your entire development identity."
+                "As a developer who's lost countless hours to environment setup, I building Stackmatch to solve the problem that every development team faces but no one talks about. We're not just syncing dotfiles—we're synchronizing your entire development identity."
               </blockquote>
-              <p className="text-center mt-4 text-purple-400 font-semibold">— Alex Chen, Founder</p>
+              <p className="text-center mt-4 text-purple-400 font-semibold">— Abdellah Qadi, Founder</p>
             </CardContent>
           </Card>
 
@@ -472,7 +472,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <img 
-                src="/lovable-uploads/92ab1551-203d-40d4-9d28-079a2c059b2b.png" 
+                src="/lovable-uploads/stackmatch.png" 
                 alt="Stackmatch Logo" 
                 className="h-12 w-auto mb-4"
               />
@@ -480,25 +480,33 @@ const Index = () => {
                 The complete development environment synchronization platform. Stop losing days to 'works on my machine' problems.
               </p>
               <div className="flex space-x-4 mt-6">
-                <Button variant="ghost" size="sm" className="p-2">
-                  <Twitter className="w-5 h-5" />
-                </Button>
-                <Button variant="ghost" size="sm" className="p-2">
-                  <Github className="w-5 h-5" />
-                </Button>
-                <Button variant="ghost" size="sm" className="p-2">
-                  <Linkedin className="w-5 h-5" />
-                </Button>
-                <Button variant="ghost" size="sm" className="p-2">
-                  <Mail className="w-5 h-5" />
-                </Button>
+                <a href="https://x.com/HimoNotting" target="_blank" rel="noopener noreferrer">
+                  <Button variant="ghost" size="sm" className="p-2">
+                    <Twitter className="w-5 h-5" />
+                  </Button>
+                </a>
+                <a href="https://github.com/MRQ67" target="_blank" rel="noopener noreferrer">
+                  <Button variant="ghost" size="sm" className="p-2">
+                    <Github className="w-5 h-5" />
+                  </Button>
+                </a>
+                <a href="https://linkedin.com/company/stackmatch" target="_blank" rel="noopener noreferrer">
+                  <Button variant="ghost" size="sm" className="p-2">
+                    <Linkedin className="w-5 h-5" />
+                  </Button>
+                </a>
+                <a href="mailto:mrq30@proton.me" target="_blank" rel="noopener noreferrer">
+                  <Button variant="ghost" size="sm" className="p-2">
+                    <Mail className="w-5 h-5" />
+                  </Button>
+                </a>
               </div>
             </div>
             
             <div>
               <h3 className="font-semibold mb-4">Contact</h3>
               <ul className="space-y-2 text-muted-foreground">
-                <li><a href="mailto:hello@stackmatch.com" className="hover:text-foreground transition-colors">hello@stackmatch.com</a></li>
+                <li><a href="mailto:mrq30@proton.me" className="hover:text-foreground transition-colors">mrq30@proton.me</a></li>
                 <li><span>Summer 2025 Launch</span></li>
               </ul>
             </div>
